@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.app {
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(52, 235, 207, 0.1),
+    rgba(52, 73, 235, 0.1)
+  );
+}
+
+.app > h1 {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 800;
+  color: rgb(158, 222, 247);
+  font-family: "Cabin";
+  font-size: 3rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 100ms ease-in;
+}
+
+.anim-shake {
+  animation: shake 100ms;
+}
+
+@keyframes shake {
+  0%,
+  50% {
+    transform: translateX(10px);
+  }
+  25%,
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
