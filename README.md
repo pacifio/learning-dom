@@ -8,6 +8,7 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 2. [Click the box](https://pacifio.github.io/learning-dom/click-the-box/index.html)
 3. [Whack a mole (from Ania Kubow)](https://pacifio.github.io/lwhack-a-mole/samsung-aod/index.html)
 4. [Memory game (from Ania Kubow)](https://pacifio.github.io/memory-game/samsung-aod/index.html)
+4. [Connect four game (from Ania Kubow)](https://pacifio.github.io/connect-four/samsung-aod/index.html)
 
 ## Topics covered till now
 
