@@ -10,7 +10,7 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 4. [Whack a mole (from Ania Kubow)](https://pacifio.github.io/lwhack-a-mole/samsung-aod/index.html)
 5. [Memory game (from Ania Kubow)](https://pacifio.github.io/memory-game/samsung-aod/index.html)
 6. [Connect four game (from Ania Kubow)](https://pacifio.github.io/connect-four/samsung-aod/index.html)
-7. [Samsung AOD styled clock](https://pacifio.github.io/learning-dom/ms-todo-clone/index.html)
+7. [MS todo clone (basic)](https://pacifio.github.io/learning-dom/ms-todo-clone/index.html)
 
 ## Topics covered till now
 
