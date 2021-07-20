@@ -1,6 +1,6 @@
 # Basic DOM projects
 
-This repo contains of me practicing vanilla js and basic DOM manipulation . Some projects are from tutorials from [Freecodecamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) but most of the projects are just self made for no reason 😅
+This repo contains of me practicing vanilla js and basic DOM manipulation . Some projects are from tutorials from [Freecodecamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) and [Frank's Lab](https://www.youtube.com/channel/UCEqc149iR-ALYkGM6TG-7vQ) most of the projects are just self made for no reason 😅
 
 ## Sample projects
 
@@ -12,13 +12,13 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 6. [Connect four game (from Ania Kubow)](https://pacifio.github.io/connect-four/samsung-aod/index.html)
 7. [MS todo clone (basic)](https://pacifio.github.io/learning-dom/ms-todo-clone/index.html)
 8. [Basic equations solver](https://pacifio.github.io/learning-dom/equations-solver)
+9. [Canvas constellations effect](https://pacifio.github.io/learning-dom/basic-canvas)
 
 ## Topics covered till now
 
 - [x] Basic DOM manipulation
 - [x] Animating and manipulating element styles from javascript
 - [x] Browser storage (session & local)
-- [ ] Browser hash router
-- [ ] 2D Canvas
+- [x] 2D Canvas
 - [ ] 3D Canvas
 - [ ] Vanilla webgl
