@@ -13,6 +13,7 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 7. [MS todo clone (basic)](https://pacifio.github.io/learning-dom/ms-todo-clone/index.html)
 8. [Basic equations solver](https://pacifio.github.io/learning-dom/equations-solver/index.html)
 9. [Canvas constellations effect](https://pacifio.github.io/learning-dom/basic-canvas/index.html)
+10. [Fireworks effect](https://pacifio.github.io/learning-dom/fireworks/index.html)
 
 ## Topics covered till now
 

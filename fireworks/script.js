@@ -1,8 +1,7 @@
-const canvas = document.getElementById("canvas1");
+const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
-let hue = 0;
-
 const particles = [];
+let hue = 0;
 
 function setup() {
   canvas.width = window.innerWidth;
@@ -11,39 +10,21 @@ function setup() {
 
 setup();
 
-window.addEventListener("resize", function () {
+window.addEventListener("scroll", function () {
   setup();
 });
 
-const mouse = {
-  x: undefined,
-  y: undefined,
-};
-
-canvas.addEventListener("click", function (event) {
-  mouse.x = event.x;
-  mouse.y = event.y;
-
-  for (let i = 0; i < 5; i++) {
-    particles.push(new Particle());
-  }
-});
-
-canvas.addEventListener("mousemove", function (event) {
-  mouse.x = event.x;
-  mouse.y = event.y;
-
-  for (let i = 0; i < 1; i++) {
-    particles.push(new Particle());
-  }
-});
+setInterval(function () {
+  shoot();
+}, 2500);
 
 class Particle {
   constructor() {
-    this.x = mouse.x;
-    this.y = mouse.y;
-    this.size = Math.random() * 15 + 1;
-    this.speedX = Math.random() * 3 - 1.5;
+    this.x = canvas.width / 2;
+    this.y = canvas.height / 2;
+
+    this.size = Math.random() * 12 + 1;
+    this.speedX = Math.random() * 12 - 6;
     this.speedY = Math.random() * 3 - 1.5;
     this.color = `hsl(${hue},100%, 50%)`;
   }
@@ -51,6 +32,7 @@ class Particle {
   update() {
     this.x += this.speedX;
     this.y += this.speedY;
+
     if (this.size > 0.2) this.size -= 0.1;
   }
 
@@ -59,6 +41,12 @@ class Particle {
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
     ctx.fill();
+  }
+}
+
+function shoot() {
+  for (let i = 0; i < 180; i++) {
+    particles.push(new Particle());
   }
 }
 
@@ -72,13 +60,10 @@ function handleParticles() {
       const dy = particles[i].y - particles[j].y;
       const distance = Math.sqrt(dx * dx + dy * dy);
 
-      if (distance < 100) {
-        ctx.beginPath();
-        ctx.strokeStyle = particles[i].color;
-        ctx.lineWidth = 0.2;
-        ctx.moveTo(particles[i].x, particles[i].y);
-        ctx.lineTo(particles[j].x, particles[j].y);
-        ctx.stroke();
+      if (distance < 15) {
+        particles[i].y -= 4;
+      } else {
+        particles[j].y += 0.06;
       }
     }
 
@@ -90,9 +75,10 @@ function handleParticles() {
 }
 
 function animate() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "rgba(0, 0, 0, 0.4)";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
   handleParticles();
-  hue += 0.5;
+  hue += .5;
   requestAnimationFrame(animate);
 }
 
