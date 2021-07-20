@@ -11,8 +11,8 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 5. [Memory game (from Ania Kubow)](https://pacifio.github.io/memory-game/samsung-aod/index.html)
 6. [Connect four game (from Ania Kubow)](https://pacifio.github.io/connect-four/samsung-aod/index.html)
 7. [MS todo clone (basic)](https://pacifio.github.io/learning-dom/ms-todo-clone/index.html)
-8. [Basic equations solver](https://pacifio.github.io/learning-dom/equations-solver)
-9. [Canvas constellations effect](https://pacifio.github.io/learning-dom/basic-canvas)
+8. [Basic equations solver](https://pacifio.github.io/learning-dom/equations-solver/index.html)
+9. [Canvas constellations effect](https://pacifio.github.io/learning-dom/basic-canvas/index.html)
 
 ## Topics covered till now
 
