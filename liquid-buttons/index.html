@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Liquid buttons 💦</title>
+  </head>
+  <body>
+    <div class="container">
+      <button>BUTTON 1</button>
+      <button>BUTTON 2</button>
+      <button>BUTTON 3</button>
+    </div>
+
+    <svg>
+      <defs>
+        <filter id="wave">
+          <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.05 0.00001"
+            numOctaves="1"
+            result="warp"
+          ></feTurbulence>
+          <feDisplacementMap
+            xChannelSelector="R"
+            yChannelSelector="G"
+            scale="30"
+            in="SourceGraphic"
+            in2="warpOffset"
+          ></feDisplacementMap>
+        </filter>
+      </defs>
+    </svg>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -96,7 +96,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let rotated = false;
   screen.addEventListener("click", function () {
-    console.log("call");
     rotated = !rotated;
 
     if (rotated) {
