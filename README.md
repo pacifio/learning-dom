@@ -16,6 +16,8 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 10. [Fireworks effect](https://pacifio.github.io/learning-dom/fireworks/index.html)
 11. [Canvas snow](https://pacifio.github.io/learning-dom/canvas-snow/index.html)
 12. [Liquid buttons](https://pacifio.github.io/learning-dom/liquid-buttons/index.html)
+13. [Fibonacci flowers](https://pacifio.github.io/learning-dom/fibonacci-flowers/index.html)
+14. [Fibonacci flowers](https://pacifio.github.io/learning-dom/hypnotize/index.html)
 
 ## Topics covered till now
 
