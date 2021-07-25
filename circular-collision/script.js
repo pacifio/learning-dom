@@ -49,7 +49,7 @@ function detectCollision() {
 }
 
 function drawLine() {
-  ctx.lineWidth = 5;
+  ctx.lineWidth = 2;
   ctx.strokeStyle = "white";
 
   ctx.beginPath();
