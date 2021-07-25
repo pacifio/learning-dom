@@ -20,7 +20,8 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 14. [Hypnotize](https://pacifio.github.io/learning-dom/hypnotize/index.html)
 15. [Circular trajectory](https://pacifio.github.io/learning-dom/circular-trajectory/index.html)
 16. [Solar](https://pacifio.github.io/learning-dom/solar/index.html)
-17. [Solar](https://pacifio.github.io/learning-dom/pixel/index.html)
+17. [Pixel](https://pacifio.github.io/learning-dom/pixel/index.html)
+18. [Particle Physics](https://pacifio.github.io/learning-dom/particle-physics/index.html)
 
 ## Topics covered till now
 
