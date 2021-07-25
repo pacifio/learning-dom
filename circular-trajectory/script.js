@@ -19,8 +19,8 @@ function draw1() {
   ctx.closePath();
   ctx.fill();
 
-  angle += speed * 0.000000005;
-  speed += 0.00000000000000005;
+  angle += speed * 0.05;
+  speed += 0.05;
 }
 
 function draw2() {
