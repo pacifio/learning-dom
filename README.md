@@ -22,7 +22,7 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 16. [Solar](https://pacifio.github.io/learning-dom/solar/index.html)
 17. [Pixel](https://pacifio.github.io/learning-dom/pixel/index.html)
 18. [Particle Physics](https://pacifio.github.io/learning-dom/particle-physics/index.html)
-19. [Circular collision](https://pacifio.github.io/learning-dom/circular-collision/index.html)
+19. [Circle collision](https://pacifio.github.io/learning-dom/circle-collision/index.html)
 20. [Rectangular collision](https://pacifio.github.io/learning-dom/rectangular-collision/index.html)
 
 ## Topics covered till now
