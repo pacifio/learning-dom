@@ -24,6 +24,8 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 18. [Particle Physics](https://pacifio.github.io/learning-dom/particle-physics/index.html)
 19. [Circle collision](https://pacifio.github.io/learning-dom/circle-collision/index.html)
 20. [Rectangular collision](https://pacifio.github.io/learning-dom/rectangular-collision/index.html)
+21. [Forest generation](https://pacifio.github.io/learning-dom/forest/index.html)
+22. [Basic Generative art](https://pacifio.github.io/learning-dom/generative-art/index.html)
 
 ## Topics covered till now
 
