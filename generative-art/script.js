@@ -10,7 +10,7 @@ ctx.shadowOffsetX = 0;
 ctx.shadowOffsetY = 10;
 ctx.shadowBlur = 10;
 ctx.shadowColor = "rgba(0, 0, 0, 0.2)";
-// ctx.globalCompositeOperation = "destination-over";
+ctx.globalCompositeOperation = "destination-over";
 
 let drawing = false;
 
