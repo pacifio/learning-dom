@@ -32,7 +32,7 @@ class Root {
     this.y += this.speedY + Math.sin(this.angleY);
     this.size += this.vs;
     this.angleX += this.vax;
-    this.angleX += this.vaY;
+    this.angleY += this.vaY;
 
     if (this.lightness < 70) this.lightness += 0.55;
 
