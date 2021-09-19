@@ -1,6 +1,6 @@
 # Basic DOM projects
 
-This repo contains of me practicing vanilla js and basic DOM manipulation . Some projects are from tutorials from [Freecodecamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) and [Frank's Lab](https://www.youtube.com/channel/UCEqc149iR-ALYkGM6TG-7vQ) most of the projects are just self made for no reason 😅
+This repo contains of me practicing vanilla js and basic DOM manipulation . Some projects are from tutorials from [Freecodecamp](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) and [Frank's Lab](https://www.youtube.com/channel/UCEqc149iR-ALYkGM6TG-7vQ) most of the projects are just self made .
 
 ## Sample projects
 
@@ -26,6 +26,8 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 20. [Rectangular collision](https://pacifio.github.io/learning-dom/rectangular-collision/index.html)
 21. [Forest generation](https://pacifio.github.io/learning-dom/forest/index.html)
 22. [Basic Generative art](https://pacifio.github.io/learning-dom/generative-art/index.html)
+23. [Particle shooter](https://pacifio.github.io/learning-dom/particle-shooter/index.html) From [Chris Courses](https://www.youtube.com/watch?v=eI9idPTT0c4)
+24. [Canvas grid](<(https://pacifio.github.io/learning-dom/grid/index.html)>)
 
 ## Topics covered till now
 
@@ -34,4 +36,5 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 - [x] Browser storage (session & local)
 - [x] 2D Canvas
 - [x] Collision detection
-- [ ] Vanilla webgl
+- [ ] Pattern generation
+- [ ] WebGL and 3D
