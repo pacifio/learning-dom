@@ -27,7 +27,7 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 21. [Forest generation](https://pacifio.github.io/learning-dom/forest/index.html)
 22. [Basic Generative art](https://pacifio.github.io/learning-dom/generative-art/index.html)
 23. [Particle shooter](https://pacifio.github.io/learning-dom/particle-shooter/index.html) From [Chris Courses](https://www.youtube.com/watch?v=eI9idPTT0c4)
-24. [Canvas grid](<(https://pacifio.github.io/learning-dom/grid/index.html)>)
+24. [Canvas grid](https://pacifio.github.io/learning-dom/grid/index.html)
 
 ## Topics covered till now
 
