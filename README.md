@@ -30,6 +30,7 @@ This repo contains of me practicing vanilla js and basic DOM manipulation . Some
 24. [Canvas grid](https://pacifio.github.io/learning-dom/grid/index.html)
 25. [Chaos](https://pacifio.github.io/learning-dom/chaos/index.html)
 26. [Wallart](https://pacifio.github.io/learning-dom/wallart/index.html)
+27. [Lines](https://pacifio.github.io/learning-dom/lines/index.html)
 
 ## Topics covered till now
 
